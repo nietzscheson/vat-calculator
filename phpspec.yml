@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Nietzscheson\Common\VatCalculator
+        psr4_prefix: Nietzscheson\Common\VatCalculator
+        src_path: .

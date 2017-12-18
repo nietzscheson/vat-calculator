@@ -1,0 +1,29 @@
+{
+    "name": "nietzscheson/vat-calculator",
+    "type": "library",
+    "description": "Vat calculator handling for PHP applications.",
+    "keywords": ["vat", "calculator", "money", "currencies"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristian Angulo"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^4.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": { "Nietzscheson\\Common\\VatCalculator\\": "src" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Nietzscheson\\Common\\VatCalculator\\spec\\": "spec/" }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
