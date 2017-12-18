@@ -23,7 +23,5 @@
     },
     "autoload-dev": {
         "psr-4": { "Nietzscheson\\Common\\VatCalculator\\spec\\": "spec/" }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
